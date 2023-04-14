@@ -1,0 +1,8 @@
+path: ../../data/table_detection/yolo_yaml_data  # dataset root dir
+train: train/images  # train images (relative to 'path') 128 images
+val: valid/images  # val images (relative to 'path') 128 images
+test:  test/images # test images (optional)
+
+# Classes
+names:
+  0: table
